@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-image: url(../img/fondo1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contenedor{
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 5px solid red;
+
+    width: 90%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+
+    border: 1px solid black;
+
+    width: 100%;
+}
+
+nav a{
+    display: block;
+
+    
+    font-size: 30px;
+    color: black;
+}
+
+nav a:visited{
+    color: black;
+}
+
+nav a:hover{
+    color: red;
+}
+
+#opcion1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#opcion2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#opcion3{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#opcion4{
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.opcion_nav{
+    height: 50px !important;
+    width: 100%;
+
+    border-right: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow-y: scroll;
+
+    border-right: 1px solid black;
+    width: 40%;
+    height: 700px;
+}
+
+.tarjeta_tarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 500px !important;
+    padding: 10px;
+    margin-bottom: 5%;
+
+    text-align: center;
+
+    background-color: lightgray;
+}
+
+.info_tarea{
+    width: 100%;
+}
+
+.botones_tarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100% !important;
+}
+
+.boton_tarea {
+    border: none;
+    color: white;
+
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 50px;
+    margin: 0;
+}
+
+#boton1{
+    background-color: rgb(255, 196, 0);
+    color: black;
+}
+
+#boton2{
+    background-color: red;
+}
+
+#boton3{
+    background-color: green;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-left: 1px solid black;
+    width: 55%;
+    height: 700px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+
+    width: 100%;
+}
