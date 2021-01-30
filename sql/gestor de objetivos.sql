@@ -91,26 +91,12 @@ INSERT INTO PREMIOS(DESCRIP, PUNTOS, TIPO) VALUES
 ("Jugar", 100, "Ocio"),
 ("1 dia de relax", 250, "Desconexion");
 
-
+/*
 SELECT OBJETIVOS.COD, NOMBRE AS "USUARIO", TIPO, DESCRIP, META, PUNTOS, FECINI AS "FECHA_INICIO", FECFIN AS "FECHA_FIN"
 FROM OBJETIVOS 
 INNER JOIN TAREAS ON OBJETIVOS.CODTAR = TAREAS.COD 
 INNER JOIN USUARIOS ON OBJETIVOS.CODUSU = USUARIOS.COD 
 WHERE ACTIVO = 1;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 select * from usuarios;
 select * from tareas;
@@ -127,3 +113,4 @@ WHERE NOMBRE="Sergio"
 INTO OUTFILE 'D:/xampp/htdocs/PHP/gestor_objetivos/sql/tareas.txt'
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n';
+*/

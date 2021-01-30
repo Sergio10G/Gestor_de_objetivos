@@ -72,9 +72,9 @@
 
                                 <div class="botones_tarea">
                                     <form method="post" action="../php/accion_tarea.php">
-                                        <button type="submit" name="btn" value="'.$i.'-Eliminar" class="boton_tarea" id="boton1">Eliminar</button>
-                                        <button type="submit" name="btn" value="'.$i.'-Incumplido"  class="boton_tarea" id="boton2">Incumplido</button>
-                                        <button type="submit" name="btn" value="'.$i.'-Cumplido"  class="boton_tarea" id="boton3">Cumplido</button>
+                                        <button type="submit" name="btn" value="'.$tareas[$i] -> cod.'-Eliminar" class="boton_tarea" id="boton1">Eliminar</button>
+                                        <button type="submit" name="btn" value="'.$tareas[$i] -> cod.'-Incumplido"  class="boton_tarea" id="boton2">Incumplido</button>
+                                        <button type="submit" name="btn" value="'.$tareas[$i] -> cod.'-Cumplido"  class="boton_tarea" id="boton3">Cumplido</button>
                                     </form>
                                 </div>
                             </div>
