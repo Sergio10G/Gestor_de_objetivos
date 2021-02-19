@@ -1,3 +1,0 @@
-DEPORTE;Bicicleta;7 Dias seguidos;25;2021-01-01 00:00:00;2021-01-31
-DISCIPLINA;Horario;Realizar un horario y adaptarse a el;50;2021-01-01 00:00:00;2021-01-11
-OBLIGACION;Pintar;Pintar la habitación;25;2021-01-07 00:00:00;2021-01-08
