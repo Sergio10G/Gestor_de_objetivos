@@ -5,9 +5,13 @@ class Objetivo{
     //  ATRIBUTOS
     private $db, $cod, $cod_usuario, $cod_tarea, $fecha_inicio, $fecha_fin, $meta;
 
-    //  CONSTRUCTOR
+    //  CONSTRUCTOR Y DESTRUCTOR
     public function __construct(){
         $this -> db = (new Database()) -> connect();
+    }
+
+    public function __destruct(){
+        $this -> db -> close();
     }
 
     //  METODOS

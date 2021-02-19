@@ -10,7 +10,7 @@ class Usuario{
     //  ATRIBUTOS
    
 
-    //  CONSTRUCTOR
+    //  CONSTRUCTOR Y DESTRUCTOR
 
 
     //  METODOS

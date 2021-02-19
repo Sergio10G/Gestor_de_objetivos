@@ -5,9 +5,13 @@ class Tarea{
     //  ATRIBUTOS
     private $db, $cod, $descripcion, $puntos, $tipo;
 
-    //  CONSTRUCTOR
+    //  CONSTRUCTOR Y DESTRUCTOR
     public function __construct(){
         $this -> db = (new Database()) -> connect();
+    }
+
+    public function __destruct(){
+        $this -> db -> close();
     }
 
     //  METODOS
