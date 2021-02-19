@@ -2,7 +2,7 @@
 
 class Database{
     //  ATRIBUTOS
-    public $server, $user, $password, $database_name;
+    private $server, $user, $password, $database_name;
 
     //  CONSTRUCTOR
     public function __construct(){
@@ -38,7 +38,37 @@ class Database{
  
     }
 
-    //  GETTERS Y SETTERS
+    //  GETTERS
+    public function getServer(){
+        return $this -> server;
+    }
 
+    public function getUser(){
+        return $this -> user;
+    }
 
+    public function getPassword(){
+        return $this -> password;
+    }
+
+    public function getDatabaseName(){
+        return $this -> database_name;
+    }
+
+    //  SETTERS
+    public function setServer($server){
+        $this -> server = $server;
+    }
+
+    public function setUser($user){
+        $this -> server = $user;
+    }
+
+    public function setPassword($password){
+        $this -> password = $password;
+    }
+
+    public function setDatabaseName($database_name){
+        $this -> database_name = $database_name;
+    }
 }

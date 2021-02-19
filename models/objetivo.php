@@ -31,7 +31,7 @@ class Objetivo{
         CODTAR = '".$this -> cod_tarea."', 
         FECINI = '".$this -> fecha_inicio."', 
         FECFIN = '".$this -> fecha_fin."', 
-        META = '".$this -> meta."', 
+        META = '".$this -> meta."' 
         WHERE COD = ".$this -> cod;
 
         $this -> db -> query($sql);
@@ -69,24 +69,20 @@ class Objetivo{
     }
 
     //  SETTERS
-    public function setCod($cod){
-        $this -> cod = $cod;
-    }
-
     public function setCodUsuario($cod_usuario){
-        $this -> cod_usuario = $this -> db -> real_escape_string($cod_usuario);
+        $this -> cod_usuario = $cod_usuario;
     }
     
     public function setCodTarea($cod_tarea){
-        $this -> cod_tarea = $this -> db -> real_escape_string($cod_tarea);
+        $this -> cod_tarea = $cod_tarea;
     }
     
     public function setFechaInicio($fecha_inicio){
-        $this -> fecha_inicio = $this -> db -> real_escape_string($fecha_inicio);
+        $this -> fecha_inicio = $fecha_inicio;
     }
     
     public function setFechaFin($fecha_fin){
-        $this -> fecha_fin = $this -> db -> real_escape_string($fecha_fin);
+        $this -> fecha_fin = $fecha_fin;
     }
     
     public function setMeta($meta){
