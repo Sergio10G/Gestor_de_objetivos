@@ -1,4 +1,5 @@
 #	ignorar
-assets/media/*
+./assets/media/*
+./old/*
 
 #	permitir
