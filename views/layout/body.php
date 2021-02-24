@@ -1,3 +1,8 @@
 <section>
-    Cuerpo
+    <article>
+        Seguimiento de objetivos
+    </article>
+    <aside>
+        Paneles adicionales
+    </aside>
 </section>
