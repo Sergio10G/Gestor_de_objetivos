@@ -47,6 +47,10 @@ class Objetivo{
         $this -> db -> query($sql);
     }
 
+    public function serializar(){
+        return serialize($this);
+    }
+
     //  GETTERS
     public function getCod(){
         return $this -> cod;
@@ -73,6 +77,10 @@ class Objetivo{
     }
 
     //  SETTERS
+    public function setCod($cod){
+        $this -> cod = $cod;
+    }
+
     public function setCodUsuario($cod_usuario){
         $this -> cod_usuario = $cod_usuario;
     }
