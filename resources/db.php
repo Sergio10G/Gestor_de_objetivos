@@ -9,7 +9,7 @@ class Database{
         $this -> server = "localhost";
         $this -> user = "root";
         $this -> password = "";
-        $this -> database_name = "gestor_objetivos";
+        $this -> database_name = "GESTOR_OBJETIVOS";
     }
 
     //  METODOS

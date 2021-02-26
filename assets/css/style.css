@@ -69,6 +69,8 @@ section{
     width: 100%;
     height: 100%;
 
+    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -81,6 +83,8 @@ article{
     width: 53% !important;
     height: 100%;
 
+    overflow-y: auto;
+
     background-color: lightgray;
 }
 
@@ -91,7 +95,54 @@ aside{
     background-color: lightgray;
 }
 
+/*  Objetivos   */
+.objetivo{
+    border: 1px solid red;
+    width: 85%;
 
+    background-color: gainsboro;
+
+    margin: 0 auto;
+    margin-bottom: 2vh;
+
+    padding: 0.5em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo > *{
+    margin-bottom: 0.2em;
+}
+
+.objetivo_header{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.objetivo_body{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo_footer{
+    width: 100%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /*  FOOTER  */
 
 footer{

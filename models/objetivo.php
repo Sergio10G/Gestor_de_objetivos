@@ -1,5 +1,5 @@
 <?php
-require_once "../resources/db.php";
+require_once "./resources/db.php";
 
 class Objetivo{
     //  ATRIBUTOS
@@ -45,6 +45,10 @@ class Objetivo{
         $sql = "UPDATE OBJETIVOS SET ACTIVO = 0 WHERE COD = ".$this -> cod;
 
         $this -> db -> query($sql);
+    }
+
+    public function __toString(){
+        return serialize($this);
     }
 
     public function serializar(){

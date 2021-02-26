@@ -1,6 +1,8 @@
 <section>
     <article>
-        Seguimiento de objetivos
+        <?php 
+            require_once "./views/viewObjetivos.php";
+        ?>
     </article>
     <aside>
         Paneles adicionales
