@@ -12,7 +12,7 @@
     
     <div class="contenedor">
         <header>
-            <a href="#">Inicio</a>
-            <a href="#">Agenda</a>
-            <a href="#" style="border: none;">Historial</a>
+            <a href="./index.php?page=1">Inicio</a>
+            <a href="./index.php?page=2">Agenda</a>
+            <a href="./index.php?page=3" style="border: none;">Historial</a>
         </header>
